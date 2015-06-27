@@ -11,4 +11,4 @@ Please make sure that you have the head version of Lint.jl (use `Pkg.clone("Lint
 
 When you run `:Neomake` Lint.jl will be run on the current file and any errors or warnings will pop up on the side of the screen. If you would like to see a full list of errors and warnings, you can open the location list with `:lopen` (see more information with `:h location-list`).
 
-If you have a project with multiple files and would like to lint the top level one and not the one being currently edited, place a file called `.julialint` in the current directory, and in the first line of that file, write the name of the top level file you would like the linter to use.
+If you have a project with multiple files and would like to lint the top level one and not the one being currently edited, place a file called `.julialint` in the top level directory, and in the first line of that file, write the name of the top level file you would like the linter to use. The linter will search in higher directories and find the `.julialint` file.
