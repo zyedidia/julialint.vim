@@ -9,8 +9,9 @@ Please make sure that you have the head version of Lint.jl (use `Pkg.clone("Lint
 
 ### Pathogen
 ```
-$ git clone https://github.com/benekastah/neomake ~/.vim/bundle/
-$ git clone https://github.com/zyedidia/julialint.vim ~/.vim/bundle
+$ cd ~/.vim/bundle
+$ git clone https://github.com/benekastah/neomake
+$ git clone https://github.com/zyedidia/julialint.vim
 $ julia -e 'Pkg.clone("Lint")'
 ```
 
