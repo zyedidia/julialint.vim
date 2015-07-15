@@ -20,8 +20,8 @@ $ julia -e 'Pkg.clone("Lint")'
 ### Vundle
 Add the following lines to your `.vimrc` (`.nvimrc` if using Neovim)
 ```
-Plugin benekastah/neomake
-Plugin zyedidia/julialint.vim
+Plugin 'benekastah/neomake'
+Plugin 'zyedidia/julialint.vim'
 ```
 Then run
 ```
