@@ -1,10 +1,10 @@
 # Julia linter for Vim
 
-This plugin adds linting for Julia by using the [Neomake] (https://github.com/benekastah/neomake) plugin and the [Lint.jl] (https://github.com/tonyhffong/Lint.jl) Julia package.
+This plugin adds linting for Julia by using the [Neomake](https://github.com/benekastah/neomake) plugin and the [Lint.jl](https://github.com/tonyhffong/Lint.jl) Julia package.
 
 # Installation
 
-You should be able to install it as you would any other plugin using your preferred plugin manager (e.g. Pathogen, Vundle...). You must also have the [Neomake] (https://github.com/benekastah/neomake) plugin installed, and the [Lint.jl] (https://github.com/tonyhffong/Lint.jl) package in Julia.
+You should be able to install it as you would any other plugin using your preferred plugin manager (e.g. Pathogen, Vundle...). You must also have the [Neomake](https://github.com/benekastah/neomake) plugin installed, and the [Lint.jl](https://github.com/tonyhffong/Lint.jl) package in Julia.
 Please make sure that you have the head version of Lint.jl (use `Pkg.clone("Lint")` instead of `Pkg.add("Lint")`).
 
 ### Pathogen
